@@ -1,0 +1,43 @@
+@forward './components';
+@use './variables' as variables;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --gradientvp: linear-gradient(to right, violet, pink);
+    --light-shadow: 4px 0px 100px #c4bdbd;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    @media only screen and (max-width: variables.$screen-larger) {
+        font-size: 58%;
+    }
+
+    @media only screen and (max-width: variables.$screen-large) {
+        font-size: 52%;
+    }
+
+    @media only screen and (max-width: variables.$screen-medium) {
+        font-size: 48%;
+    }
+
+    @media only screen and (max-width: variables.$screen-small) {
+        font-size: 45%;
+    }
+}
