@@ -559,14 +559,6 @@
         }
     }
 
-    &__links-1 {
-        
-    }
-
-    &__links-2 {
-
-    }
-
     &__link-item {
         margin: 2rem 2rem;
         padding: 2rem;
@@ -597,11 +589,28 @@
             align-items: center;
             width: 80%;
         }
+
+        @media only screen and (min-width: variables.$screen-1100px) {
+            width: 20%;
+        }
     }
 
     &__repository {
         font-size: 1.5rem;
         text-align: center;
+
+        & > a {
+
+            transition: all .2s;
+
+            &:hover {
+                color: purple;
+            }
+        }
+
+        @media only screen and (max-width: variables.$screen-large) {
+            font-size: 2rem;
+        }
     }
 }
 
@@ -622,6 +631,11 @@
 
     @media only screen and (max-width: variables.$screen-larger) {
         text-align: center;
+        padding: 5rem;
+    }
+
+    @media only screen and (max-width: variables.$screen-large) {
+        padding: 3rem;
     }
 
     &__title {
@@ -641,16 +655,28 @@
         }
     }
 
-    &__legal-text {
-
-    }
-
     &__personal-portfolio {
         text-decoration: underline 1px solid white;
+    }
+
+
+    &__legal-text {
+        @media only screen and (max-width: variables.$screen-larger) {
+            font-size: 1.8rem;
+        }
+
+        @media only screen and (max-width: variables.$screen-large) {
+            font-size: 1.3rem;
+        }
     }
 
     &__copyright {
         margin-top: 1.5rem;
         font-size: 1rem;
+
+        @media only screen and (max-width: variables.$screen-larger) {
+            font-size: 1.5rem;
+            margin-top: 2.5rem;
+        }
     }
 }
