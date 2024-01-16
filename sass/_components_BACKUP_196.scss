@@ -655,6 +655,7 @@
         }
     }
 
+<<<<<<< HEAD
     &__legal-text {
 
         @media only screen and (max-width: variables.$screen-larger) {
@@ -666,6 +667,8 @@
         }
     }
 
+=======
+>>>>>>> 17b82828c03bac139a51790cd24586658cbe8fae
     &__personal-portfolio {
         text-decoration: underline 1px solid white;
     }
@@ -683,7 +686,11 @@
 
     &__copyright {
         margin-top: 1.5rem;
+<<<<<<< HEAD
         font-size: 1.5rem;
+=======
+        font-size: 1rem;
+>>>>>>> 17b82828c03bac139a51790cd24586658cbe8fae
 
         @media only screen and (max-width: variables.$screen-larger) {
             font-size: 1.5rem;

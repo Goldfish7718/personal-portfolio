@@ -670,17 +670,6 @@
         text-decoration: underline 1px solid white;
     }
 
-
-    &__legal-text {
-        @media only screen and (max-width: variables.$screen-larger) {
-            font-size: 1.8rem;
-        }
-
-        @media only screen and (max-width: variables.$screen-large) {
-            font-size: 1.3rem;
-        }
-    }
-
     &__copyright {
         margin-top: 1.5rem;
         font-size: 1.5rem;

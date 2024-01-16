@@ -630,9 +630,25 @@
 .footer__personal-portfolio {
   text-decoration: underline 1px solid white;
 }
+@media only screen and (max-width: 56.25em) {
+  .footer__legal-text {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .footer__legal-text {
+    font-size: 1.3rem;
+  }
+}
 .footer__copyright {
   margin-top: 1.5rem;
   font-size: 1.5rem;
+}
+@media only screen and (max-width: 56.25em) {
+  .footer__copyright {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+  }
 }
 @media only screen and (max-width: 56.25em) {
   .footer__copyright {
