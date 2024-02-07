@@ -22,7 +22,7 @@ npm install Sass
 sass --watch ./sass/main.scss:./css/styles.css
 ```
 
-## Deployment 🚀
+## Deployment 🌐
 
 My personal portfolio is currently available on this domain: [Tejas Nanoti's Personal Portfolio](https://tejasnanoti.vercel.app)
 
