@@ -1,6 +1,6 @@
 # Tejas Nanoti's Personal Portfolio Website 🚀
 
-This repository contains the codebase for my personal portfolio website. I'm creating this small README to list the technologies I have used.
+This repository contains the codebase for my **OLD** personal portfolio website. I'm creating this small README to list the technologies I have used.
 
 ## HTML 5
 
@@ -22,13 +22,13 @@ npm install Sass
 sass --watch ./sass/main.scss:./css/styles.css
 ```
 
-## Deployment 🚀
+## Deployment 🌐
 
-My personal portfolio is currently available on this domain: [Tejas Nanoti's Personal Portfolio](https://tejasnanoti.vercel.app)
+This website is currently available on this domain: [Tejas Nanoti's Personal Portfolio](https://tejasnanoti-old-portfolio.vercel.app)
 
 ## Update 🚨
 
-I'm planning on working on a new personal portofolio soon, which I'm considering building on **React** and **Chakra-UI**. Once the work has started, I'll update this README to include the link for it.
+This website is **outdated** and I've released my new personal portfolio website built with Next.js. My new portfolio is available [here](https://tejasnanoti.vercel.app). View repository [here](https://github.com/goldfish7718/personal-portfolio-2)
 
 ## Contact 🔗
 
